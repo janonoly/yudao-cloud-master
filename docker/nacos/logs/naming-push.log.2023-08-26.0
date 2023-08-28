@@ -1,0 +1,98 @@
+2023-08-26 19:44:50,960 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-server', ephemeral=true, revision=1}
+
+2023-08-26 19:44:51,322 INFO [PUSH-SUCC] 33ms, all delay time 585ms, SLA 362ms, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.18.0.11
+
+2023-08-26 19:45:10,964 INFO [PUSH-SUCC] 41ms, all delay time 546ms for subscriber 172.18.0.10, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2023-08-26 19:45:11,629 INFO [PUSH-SUCC] 5ms, all delay time 595ms, SLA 595ms, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.18.0.10
+
+2023-08-26 19:45:56,858 INFO [PUSH-SUCC] 41ms, all delay time 555ms for subscriber 172.18.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='infra-server', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2023-08-26 19:45:56,926 INFO [PUSH-SUCC] 8ms, all delay time 553ms for subscriber 172.18.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 19:45:57,225 INFO [PUSH-SUCC] 7ms, all delay time 580ms for subscriber 172.18.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 19:45:57,424 INFO [PUSH-SUCC] 5ms, all delay time 542ms, SLA 542ms, Service{namespace='dev', group='DEFAULT_GROUP', name='infra-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.18.0.12
+
+2023-08-26 19:47:48,355 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='mp-server', ephemeral=true, revision=1}
+
+2023-08-26 19:47:48,683 INFO [PUSH-SUCC] 153ms, all delay time 665ms, SLA 328ms, Service{namespace='dev', group='DEFAULT_GROUP', name='mp-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.18.0.16
+
+2023-08-26 19:47:49,654 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='pay-server', ephemeral=true, revision=1}
+
+2023-08-26 19:47:50,092 INFO [PUSH-SUCC] 58ms, all delay time 629ms, SLA 438ms, Service{namespace='dev', group='DEFAULT_GROUP', name='pay-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.18.0.13
+
+2023-08-26 19:47:50,612 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='report-server', ephemeral=true, revision=1}
+
+2023-08-26 19:47:51,018 INFO [PUSH-SUCC] 83ms, all delay time 603ms, SLA 406ms, Service{namespace='dev', group='DEFAULT_GROUP', name='report-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.18.0.15
+
+2023-08-26 19:47:51,856 INFO [PUSH-SUCC] 15ms, all delay time 600ms for subscriber 172.18.0.15, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 19:47:57,257 INFO [PUSH-SUCC] 8ms, all delay time 529ms for subscriber 172.18.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='mp-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 19:47:57,357 INFO [PUSH-SUCC] 5ms, all delay time 576ms for subscriber 172.18.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='pay-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 19:47:57,366 INFO [PUSH-SUCC] 13ms, all delay time 608ms for subscriber 172.18.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='report-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 19:47:59,597 INFO [PUSH-SUCC] 42ms, all delay time 607ms for subscriber 172.18.0.19, Service{namespace='dev', group='DEFAULT_GROUP', name='bpm-service', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2023-08-26 19:48:00,897 INFO [PUSH-SUCC] 38ms, all delay time 628ms, SLA 628ms, Service{namespace='dev', group='DEFAULT_GROUP', name='bpm-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.18.0.19
+
+2023-08-26 19:48:01,468 INFO [PUSH-SUCC] 8ms, all delay time 598ms for subscriber 172.18.0.19, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 19:48:27,406 INFO [PUSH-SUCC] 5ms, all delay time 587ms for subscriber 172.18.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='bpm-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 22:57:19,501 INFO [PUSH-SUCC] 12ms, all delay time 611ms, SLA 611ms, Service{namespace='dev', group='DEFAULT_GROUP', name='mp-server', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.18.0.12
+
+2023-08-26 22:57:19,512 INFO [PUSH-SUCC] 23ms, all delay time 606ms, SLA 607ms, Service{namespace='dev', group='DEFAULT_GROUP', name='pay-server', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.18.0.12
+
+2023-08-26 22:57:19,514 INFO [PUSH-SUCC] 25ms, all delay time 624ms, SLA 625ms, Service{namespace='dev', group='DEFAULT_GROUP', name='bpm-service', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.18.0.12
+
+2023-08-26 22:57:19,516 INFO [PUSH-SUCC] 27ms, all delay time 618ms, SLA 618ms, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-server', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.18.0.12
+
+2023-08-26 22:57:19,520 INFO [PUSH-SUCC] 26ms, all delay time 592ms, SLA 592ms, Service{namespace='dev', group='DEFAULT_GROUP', name='report-server', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.18.0.12
+
+2023-08-26 23:14:49,287 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-server', ephemeral=true, revision=1}
+
+2023-08-26 23:14:49,698 INFO [PUSH-SUCC] 83ms, all delay time 661ms, SLA 412ms, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.19.0.11
+
+2023-08-26 23:15:09,801 INFO [PUSH-SUCC] 52ms, all delay time 636ms for subscriber 172.19.0.10, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2023-08-26 23:15:10,456 INFO [PUSH-SUCC] 7ms, all delay time 606ms, SLA 606ms, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.19.0.10
+
+2023-08-26 23:15:55,607 INFO [PUSH-SUCC] 27ms, all delay time 541ms for subscriber 172.19.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='infra-server', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2023-08-26 23:15:55,696 INFO [PUSH-SUCC] 15ms, all delay time 555ms for subscriber 172.19.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 23:15:55,987 INFO [PUSH-SUCC] 6ms, all delay time 537ms for subscriber 172.19.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 23:15:56,288 INFO [PUSH-SUCC] 6ms, all delay time 596ms, SLA 596ms, Service{namespace='dev', group='DEFAULT_GROUP', name='infra-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.19.0.12
+
+2023-08-26 23:17:47,766 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='mp-server', ephemeral=true, revision=1}
+
+2023-08-26 23:17:48,207 INFO [PUSH-SUCC] 65ms, all delay time 655ms, SLA 441ms, Service{namespace='dev', group='DEFAULT_GROUP', name='mp-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.19.0.20
+
+2023-08-26 23:17:49,710 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='report-server', ephemeral=true, revision=1}
+
+2023-08-26 23:17:50,211 INFO [PUSH-SUCC] 162ms, all delay time 683ms, SLA 500ms, Service{namespace='dev', group='DEFAULT_GROUP', name='report-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.19.0.15
+
+2023-08-26 23:17:51,364 INFO [PUSH-SUCC] 13ms, all delay time 571ms for subscriber 172.19.0.15, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 23:17:51,677 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='pay-server', ephemeral=true, revision=1}
+
+2023-08-26 23:17:52,030 INFO [PUSH-SUCC] 79ms, all delay time 673ms, SLA 353ms, Service{namespace='dev', group='DEFAULT_GROUP', name='pay-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.19.0.19
+
+2023-08-26 23:17:56,071 INFO [PUSH-SUCC] 9ms, all delay time 542ms for subscriber 172.19.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='mp-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 23:17:56,175 INFO [PUSH-SUCC] 12ms, all delay time 579ms for subscriber 172.19.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='report-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 23:17:56,273 INFO [PUSH-SUCC] 9ms, all delay time 607ms for subscriber 172.19.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='pay-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 23:18:00,852 INFO [PUSH-SUCC] 81ms, all delay time 623ms for subscriber 172.19.0.13, Service{namespace='dev', group='DEFAULT_GROUP', name='bpm-service', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2023-08-26 23:18:02,637 INFO [PUSH-SUCC] 61ms, all delay time 640ms, SLA 640ms, Service{namespace='dev', group='DEFAULT_GROUP', name='bpm-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.19.0.13
+
+2023-08-26 23:18:03,893 INFO [PUSH-SUCC] 13ms, all delay time 548ms for subscriber 172.19.0.13, Service{namespace='dev', group='DEFAULT_GROUP', name='system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2023-08-26 23:18:26,228 INFO [PUSH-SUCC] 5ms, all delay time 514ms for subscriber 172.19.0.12, Service{namespace='dev', group='DEFAULT_GROUP', name='bpm-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
