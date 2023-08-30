@@ -44,14 +44,13 @@ _roadhog-api-doc
 /dist
 /.vscode
 /mysql/
-/data/
+/docker/
 # misc
 .DS_Store
 npm-debug.log*
 yarn-error.log
 
 /coverage
-.idea
 yarn.lock
 package-lock.json
 *bak

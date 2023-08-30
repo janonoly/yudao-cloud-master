@@ -9,7 +9,7 @@ services:
       - MODE=standalone
     volumes:
       - ./docker/nacos/logs:/home/nacos/logs
-      - ./docker/nacos/custom.properties:/home/nacos/init.d/custom.properties
+      - ./data/nacos/custom.properties:/home/nacos/init.d/custom.properties
     ports:
       - "8848:8848"
       - "9848:9848"
@@ -55,7 +55,7 @@ services:
     privileged: true
     volumes:
       - ./docker/rocketmq/nameserver/logs:/home/rocketmq/logs
-      - ./docker/rocketmq/nameserver/bin/runserver.sh:/home/rocketmq/rocketmq-5.1.0/bin/runserver.sh
+      - ./data/rocketmq/nameserver/bin/runserver.sh:/home/rocketmq/rocketmq-5.1.0/bin/runserver.sh
     environment:
       - MAX_HEAP_SIZE=256M
       - HEAP_NEWSIZE=128M
@@ -70,8 +70,8 @@ services:
     privileged: true
     volumes:
       - ./docker/rocketmq/broker/store:/home/rocketmq/logs
-      - ./docker/rocketmq/broker/conf/broker.conf:/home/rocketmq/broker.conf
-      - ./docker/rocketmq/broker/bin/runbroker.sh:/home/rocketmq/rocketmq-5.1.0/bin/runbroker.sh
+      - ./data/rocketmq/broker/conf/broker.conf:/home/rocketmq/broker.conf
+      - ./data/rocketmq/broker/bin/runbroker.sh:/home/rocketmq/rocketmq-5.1.0/bin/runbroker.sh
     depends_on:
       - 'rmqnamesrv-service'
     environment:
